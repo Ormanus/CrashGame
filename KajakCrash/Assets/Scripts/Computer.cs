@@ -4,7 +4,7 @@ using System.Collections;
 public enum ComputerState
 {
     Running,
-    Jammed,
+    Off,
     Bluescreen
 };
 
