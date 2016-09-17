@@ -26,11 +26,9 @@ public class Trigger : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            name_text.text = "space available";
-            playerIsNear = true;
-        }
+        name_text.text = "space available";
+        playerIsNear = true;
+
         
     }
 
