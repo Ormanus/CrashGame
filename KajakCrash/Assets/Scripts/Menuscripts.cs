@@ -8,6 +8,7 @@ public class Menuscripts : MonoBehaviour
     Animator animator2;
     Animator animator3;
     Animator animator4;
+    Animator animatorGlitch;
     public bool menu1;
     public bool menu2;
     public bool menu3;
@@ -17,8 +18,10 @@ public class Menuscripts : MonoBehaviour
     public GameObject menu3gameobject;
     public GameObject menu4gameobject;
     // Use this for initialization
+    
     void Start()
     {
+        
         animator = menu1gameobject.GetComponent<Animator>();
         animator2 = menu2gameobject.GetComponent<Animator>();
         animator3 = menu3gameobject.GetComponent<Animator>();
