@@ -7,7 +7,8 @@ public class EnemyAI : MonoBehaviour {
     Transform target;
     float speed;
     List<GameObject> computers;
-    float timer = 0;
+    float updateTimer = 0;
+    float fixTimer = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -23,11 +24,11 @@ public class EnemyAI : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        timer += Time.deltaTime;
+        updateTimer += Time.deltaTime;
 
-        if(timer > 1.0f)
+        if(updateTimer > 1.0f)
         {
-            timer -= 1.0f;
+            updateTimer -= 1.0f;
             updateTarget();
             Debug.Log("update");
             if(target == null)
@@ -43,8 +44,13 @@ public class EnemyAI : MonoBehaviour {
             if (delta.magnitude < 1.0f)
             {
                 GetComponent<Rigidbody2D>().velocity = new Vector3(0, 0, 0);
-                target.GetComponent<Computer>().state = ComputerState.Running;
-                updateTarget();
+                fixTimer += Time.fixedDeltaTime;
+                if(fixTimer > 2.0f)
+                {
+                    target.GetComponent<Computer>().state = ComputerState.Running;
+                    updateTarget();
+                    fixTimer = 0.0f;
+                }
             }
             else
             {
