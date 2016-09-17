@@ -1,0 +1,126 @@
+fileFormatVersion: 2
+guid: 83989263cc51d6b49baaf74e7466973c
+timeCreated: 1474067215
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Konemaatio_0
+    21300002: Konemaatio_1
+    21300004: Konemaatio_2
+    21300006: Konemaatio_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Konemaatio_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 6
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5155586, y: 0.5065093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.840164, y: 37.011803}
+        - {x: -27.840164, y: 36.011803}
+        - {x: -27.840164, y: -37.988197}
+        - {x: 26.159836, y: -37.988197}
+        - {x: 26.159836, y: 32.011803}
+        - {x: 20.159836, y: 37.011803}
+    - name: Konemaatio_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 6
+        width: 54
+        height: 75
+      alignment: 9
+      pivot: {x: 0.4418985, y: 0.50534964}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.862518, y: 37.098778}
+        - {x: -23.862518, y: -37.901222}
+        - {x: 26.137482, y: -37.901222}
+        - {x: 28.137482, y: -34.901222}
+        - {x: 28.137482, y: 31.098778}
+        - {x: 22.137482, y: 37.098778}
+    - name: Konemaatio_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 6
+        width: 50
+        height: 75
+      alignment: 9
+      pivot: {x: 0.47653443, y: 0.50625753}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.173279, y: -37.969315}
+        - {x: 26.173279, y: 37.030685}
+        - {x: -23.826721, y: 37.030685}
+        - {x: -23.826721, y: -37.969315}
+    - name: Konemaatio_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 6
+        width: 50
+        height: 75
+      alignment: 9
+      pivot: {x: 0.47653443, y: 0.50625765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.826721, y: 37.030678}
+        - {x: -23.826721, y: 29.030678}
+        - {x: -23.826721, y: -37.969322}
+        - {x: 26.173279, y: -37.969322}
+        - {x: 26.173279, y: 37.030678}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
