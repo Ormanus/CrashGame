@@ -1,0 +1,450 @@
+fileFormatVersion: 2
+guid: 5e974310c21d6d249b20968523d2642b
+timeCreated: 1474063680
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MegaHaxor_0
+    21300002: MegaHaxor_1
+    21300004: MegaHaxor_2
+    21300006: MegaHaxor_3
+    21300008: MegaHaxor_4
+    21300010: MegaHaxor_5
+    21300012: MegaHaxor_6
+    21300014: MegaHaxor_7
+    21300016: MegaHaxor_8
+    21300018: MegaHaxor_9
+    21300020: MegaHaxor_10
+    21300022: MegaHaxor_11
+    21300024: MegaHaxor_12
+    21300026: MegaHaxor_13
+    21300028: MegaHaxor_14
+    21300030: MegaHaxor_15
+    21300032: MegaHaxor_16
+    21300034: MegaHaxor_17
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: MegaHaxor_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 267
+        width: 104
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5662722, y: 0.3803462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.892303, y: 66.92261}
+        - {x: -58.892303, y: 44.922607}
+        - {x: -49.892303, y: -18.077393}
+        - {x: -21.892303, y: -41.077393}
+        - {x: 17.107697, y: -41.077393}
+        - {x: 28.107697, y: -37.077393}
+        - {x: 45.107697, y: -20.077393}
+        - {x: 45.107697, y: 66.92261}
+    - name: MegaHaxor_1
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 267
+        width: 94
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5004833, y: 0.37882555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.045425, y: 66.46567}
+        - {x: -47.045425, y: -40.534332}
+        - {x: 40.954575, y: -40.534332}
+        - {x: 46.954575, y: -38.534332}
+        - {x: 46.954575, y: 66.46567}
+    - name: MegaHaxor_2
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 267
+        width: 96
+        height: 108
+      alignment: 9
+      pivot: {x: 0.4486761, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.0729065, y: 42.95999}
+        - {x: -15.0729065, y: 65.95999}
+        - {x: -18.072906, y: 66.95999}
+        - {x: -34.072906, y: 66.95999}
+        - {x: -43.072906, y: 50.95999}
+        - {x: -43.072906, y: -21.040009}
+        - {x: -27.072906, y: -41.04001}
+        - {x: 25.927094, y: -41.04001}
+        - {x: 52.927094, y: -10.040009}
+        - {x: 52.927094, y: 66.95999}
+        - {x: 34.927094, y: 66.95999}
+        - {x: 2.9270935, y: 51.95999}
+    - name: MegaHaxor_3
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 267
+        width: 105
+        height: 107
+      alignment: 9
+      pivot: {x: 0.39572522, y: 0.3811631}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.551147, y: 66.215546}
+        - {x: -41.551147, y: 57.215546}
+        - {x: -41.551147, y: -40.784454}
+        - {x: 25.448853, y: -40.784454}
+        - {x: 58.448853, y: -26.784454}
+        - {x: 63.448853, y: -11.784454}
+        - {x: 63.448853, y: 66.215546}
+    - name: MegaHaxor_4
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 267
+        width: 99
+        height: 109
+      alignment: 9
+      pivot: {x: 0.44193769, y: 0.38080466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.751831, y: 67.49228}
+        - {x: -42.75183, y: 53.49228}
+        - {x: -43.75183, y: 48.49228}
+        - {x: -43.75183, y: -24.50772}
+        - {x: -28.751831, y: -41.50772}
+        - {x: 28.248169, y: -41.50772}
+        - {x: 55.24817, y: -33.50772}
+        - {x: 55.24817, y: 67.49228}
+    - name: MegaHaxor_5
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 267
+        width: 112
+        height: 105
+      alignment: 9
+      pivot: {x: 0.41690555, y: 0.38030243}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.69342, y: 65.06824}
+        - {x: -46.69342, y: 63.068237}
+        - {x: -46.69342, y: -10.931763}
+        - {x: -38.69342, y: -39.931763}
+        - {x: 37.30658, y: -39.931763}
+        - {x: 65.30658, y: -6.9317627}
+        - {x: 65.30658, y: 63.068237}
+        - {x: 64.30658, y: 65.06824}
+    - name: MegaHaxor_6
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 267
+        width: 110
+        height: 103
+      alignment: 9
+      pivot: {x: 0.37806952, y: 0.38070798}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.587646, y: 63.78708}
+        - {x: -41.587646, y: 57.78708}
+        - {x: -41.587646, y: -20.212921}
+        - {x: -25.587646, y: -39.21292}
+        - {x: 36.412354, y: -39.21292}
+        - {x: 68.41235, y: -31.212921}
+        - {x: 68.41235, y: 48.78708}
+        - {x: 49.412354, y: 63.78708}
+    - name: MegaHaxor_7
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 267
+        width: 110
+        height: 110
+      alignment: 9
+      pivot: {x: 0.3905118, y: 0.380579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.956299, y: 68.13632}
+        - {x: -42.9563, y: 64.13632}
+        - {x: -42.9563, y: -41.863678}
+        - {x: 28.043701, y: -41.863678}
+        - {x: 67.0437, y: 0.13632202}
+        - {x: 67.0437, y: 47.136322}
+        - {x: 49.0437, y: 68.13632}
+    - name: MegaHaxor_8
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 267
+        width: 93
+        height: 117
+      alignment: 9
+      pivot: {x: 0.45879406, y: 0.38036668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.667847, y: 72.4971}
+        - {x: -42.667847, y: -36.5029}
+        - {x: -38.667847, y: -44.5029}
+        - {x: 28.332153, y: -44.5029}
+        - {x: 50.332153, y: -15.502899}
+        - {x: 50.332153, y: 68.4971}
+        - {x: 44.332153, y: 72.4971}
+    - name: MegaHaxor_9
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 100
+        width: 98
+        height: 127
+      alignment: 9
+      pivot: {x: 0.51353586, y: 0.38086343}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.673485, y: 62.63034}
+        - {x: 28.673485, y: 52.63034}
+        - {x: 29.673485, y: 47.63034}
+        - {x: 28.673485, y: 51.63034}
+        - {x: 26.673485, y: 55.63034}
+        - {x: 16.673485, y: 65.63034}
+        - {x: 0.6734848, y: 78.63034}
+        - {x: -45.326515, y: 78.63034}
+        - {x: -50.326515, y: 71.63034}
+        - {x: -50.326515, y: -25.36966}
+        - {x: -39.326515, y: -48.36966}
+        - {x: 46.673485, y: -48.36966}
+        - {x: 47.673485, y: -47.36966}
+        - {x: 47.673485, y: 74.63034}
+        - {x: 34.673485, y: 72.63034}
+    - name: MegaHaxor_10
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 100
+        width: 110
+        height: 117
+      alignment: 9
+      pivot: {x: 0.50904447, y: 0.3808096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.00511, y: 71.44528}
+        - {x: 25.005112, y: 61.445282}
+        - {x: 27.005112, y: 42.445282}
+        - {x: 29.005112, y: 34.445282}
+        - {x: -16.994888, y: 72.44528}
+        - {x: -45.99489, y: 72.44528}
+        - {x: -55.99489, y: 54.445282}
+        - {x: -55.99489, y: 0.44528198}
+        - {x: -43.99489, y: -36.554718}
+        - {x: -20.994888, y: -44.554718}
+        - {x: 31.005112, y: -44.554718}
+        - {x: 47.00511, y: -31.554718}
+        - {x: 54.00511, y: 17.445282}
+        - {x: 54.00511, y: 70.44528}
+    - name: MegaHaxor_11
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 100
+        width: 124
+        height: 117
+      alignment: 9
+      pivot: {x: 0.51872104, y: 0.38041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.32141, y: 72.492035}
+        - {x: -64.32141, y: -9.507965}
+        - {x: -44.32141, y: -38.507965}
+        - {x: -24.321411, y: -44.507965}
+        - {x: 24.678589, y: -44.507965}
+        - {x: 53.67859, y: -20.507965}
+        - {x: 59.67859, y: -8.507965}
+        - {x: 59.67859, y: 72.492035}
+    - name: MegaHaxor_12
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 100
+        width: 114
+        height: 115
+      alignment: 9
+      pivot: {x: 0.45345587, y: 0.3800467}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.30603, y: 71.29463}
+        - {x: 42.30603, y: 70.29463}
+        - {x: 31.30603, y: 55.294632}
+        - {x: -13.69397, y: 71.29463}
+        - {x: -32.69397, y: 71.29463}
+        - {x: -45.69397, y: 54.294632}
+        - {x: -51.69397, y: 40.294632}
+        - {x: -51.69397, y: -19.705368}
+        - {x: -46.69397, y: -38.705368}
+        - {x: -25.69397, y: -43.705368}
+        - {x: 25.30603, y: -43.705368}
+        - {x: 28.30603, y: -40.705368}
+        - {x: 62.30603, y: -13.705368}
+        - {x: 62.30603, y: 71.29463}
+    - name: MegaHaxor_13
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 100
+        width: 112
+        height: 111
+      alignment: 9
+      pivot: {x: 0.45558548, y: 0.38006398}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.025574, y: 68.8129}
+        - {x: -51.025574, y: -37.187103}
+        - {x: -50.025574, y: -41.187103}
+        - {x: -44.025574, y: -42.187103}
+        - {x: 49.974426, y: -42.187103}
+        - {x: 60.974426, y: 1.8128967}
+        - {x: 60.974426, y: 68.8129}
+    - name: MegaHaxor_14
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 100
+        width: 115
+        height: 110
+      alignment: 9
+      pivot: {x: 0.4769303, y: 0.38057265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.153015, y: 68.13701}
+        - {x: 31.153015, y: 65.13701}
+        - {x: 14.153015, y: 68.13701}
+        - {x: -54.846985, y: 68.13701}
+        - {x: -54.846985, y: 45.13701}
+        - {x: -53.846985, y: 40.13701}
+        - {x: -43.846985, y: 47.13701}
+        - {x: -42.846985, y: 50.13701}
+        - {x: -54.846985, y: 26.137009}
+        - {x: -54.846985, y: -9.862991}
+        - {x: -30.846985, y: -41.86299}
+        - {x: 39.153015, y: -41.86299}
+        - {x: 60.153015, y: 27.137009}
+        - {x: 60.153015, y: 68.13701}
+    - name: MegaHaxor_15
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 100
+        width: 111
+        height: 127
+      alignment: 9
+      pivot: {x: 0.46414873, y: 0.38047466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.520508, y: 78.67972}
+        - {x: -51.520508, y: -31.320282}
+        - {x: -49.520508, y: -42.320282}
+        - {x: -41.520508, y: -48.320282}
+        - {x: 30.479492, y: -48.320282}
+        - {x: 53.479492, y: -40.320282}
+        - {x: 59.479492, y: -13.320282}
+        - {x: 59.479492, y: 72.67972}
+        - {x: 32.479492, y: 78.67972}
+    - name: MegaHaxor_16
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 100
+        width: 98
+        height: 121
+      alignment: 9
+      pivot: {x: 0.46616036, y: 0.3804097}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.316284, y: 74.97043}
+        - {x: -45.683716, y: 74.97043}
+        - {x: -45.683716, y: -32.02957}
+        - {x: -34.683716, y: -46.02957}
+        - {x: 37.316284, y: -46.02957}
+        - {x: 52.316284, y: -1.0295715}
+        - {x: 52.316284, y: 64.97043}
+        - {x: 44.316284, y: 66.97043}
+    - name: MegaHaxor_17
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 100
+        width: 98
+        height: 101
+      alignment: 9
+      pivot: {x: 0.47631213, y: 0.38033345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.32141, y: 62.58632}
+        - {x: 34.32141, y: 52.58632}
+        - {x: 35.32141, y: 48.58632}
+        - {x: 38.32141, y: 42.58632}
+        - {x: 38.32141, y: 38.58632}
+        - {x: 39.32141, y: 23.586319}
+        - {x: 37.32141, y: 26.586319}
+        - {x: 38.32141, y: 35.58632}
+        - {x: 38.32141, y: 39.58632}
+        - {x: 35.32141, y: 45.58632}
+        - {x: 24.321411, y: 62.58632}
+        - {x: -46.67859, y: 62.58632}
+        - {x: -46.67859, y: -26.413681}
+        - {x: -39.67859, y: -38.41368}
+        - {x: 36.32141, y: -38.41368}
+        - {x: 51.32141, y: -12.413681}
+        - {x: 51.32141, y: 59.58632}
+        - {x: 50.32141, y: 62.58632}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,435 @@
+fileFormatVersion: 2
+guid: 92f62e5c6dfb9d7428502a0ab103dae8
+timeCreated: 1474061791
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Donitsihaukkaus_0
+    21300002: Donitsihaukkaus_1
+    21300004: Donitsihaukkaus_2
+    21300006: Donitsihaukkaus_3
+    21300008: Donitsihaukkaus_4
+    21300010: Donitsihaukkaus_5
+    21300012: Donitsihaukkaus_6
+    21300014: Donitsihaukkaus_7
+    21300016: Donitsihaukkaus_8
+    21300018: Donitsihaukkaus_9
+    21300020: Donitsihaukkaus_10
+    21300022: Donitsihaukkaus_11
+    21300024: Donitsihaukkaus_12
+    21300026: Donitsihaukkaus_13
+    21300028: Donitsihaukkaus_14
+    21300030: Donitsihaukkaus_15
+    21300032: Donitsihaukkaus_16
+    21300034: Donitsihaukkaus_17
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Donitsihaukkaus_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 343
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 45.5}
+        - {x: -45.5, y: 40.5}
+        - {x: -45.5, y: -39.5}
+        - {x: -32.5, y: -45.5}
+        - {x: 24.5, y: -45.5}
+        - {x: 35.5, y: -44.5}
+        - {x: 45.5, y: -22.5}
+        - {x: 45.5, y: 29.5}
+        - {x: 32.5, y: 45.5}
+    - name: Donitsihaukkaus_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 343
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 45.5}
+        - {x: -45.5, y: 40.5}
+        - {x: -45.5, y: -39.5}
+        - {x: -32.5, y: -45.5}
+        - {x: 24.5, y: -45.5}
+        - {x: 35.5, y: -44.5}
+        - {x: 45.5, y: -22.5}
+        - {x: 45.5, y: 29.5}
+        - {x: 32.5, y: 45.5}
+    - name: Donitsihaukkaus_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 343
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 45.5}
+        - {x: -45.5, y: 40.5}
+        - {x: -45.5, y: -39.5}
+        - {x: -32.5, y: -45.5}
+        - {x: 24.5, y: -45.5}
+        - {x: 35.5, y: -44.5}
+        - {x: 45.5, y: -22.5}
+        - {x: 45.5, y: 29.5}
+        - {x: 32.5, y: 45.5}
+    - name: Donitsihaukkaus_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 343
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 45.5}
+        - {x: -45.5, y: 40.5}
+        - {x: -45.5, y: -39.5}
+        - {x: -32.5, y: -45.5}
+        - {x: 24.5, y: -45.5}
+        - {x: 35.5, y: -44.5}
+        - {x: 45.5, y: -22.5}
+        - {x: 45.5, y: 29.5}
+        - {x: 32.5, y: 45.5}
+    - name: Donitsihaukkaus_4
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 343
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 45.5}
+        - {x: -45.5, y: 40.5}
+        - {x: -45.5, y: -39.5}
+        - {x: -32.5, y: -45.5}
+        - {x: 24.5, y: -45.5}
+        - {x: 35.5, y: -44.5}
+        - {x: 45.5, y: -22.5}
+        - {x: 45.5, y: 29.5}
+        - {x: 32.5, y: 45.5}
+    - name: Donitsihaukkaus_5
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 343
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 45.5}
+        - {x: -45.5, y: 40.5}
+        - {x: -45.5, y: -39.5}
+        - {x: -32.5, y: -45.5}
+        - {x: 24.5, y: -45.5}
+        - {x: 35.5, y: -44.5}
+        - {x: 45.5, y: -22.5}
+        - {x: 45.5, y: 29.5}
+        - {x: 32.5, y: 45.5}
+    - name: Donitsihaukkaus_6
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 210
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 45.5}
+        - {x: -45.5, y: 40.5}
+        - {x: -45.5, y: -39.5}
+        - {x: -32.5, y: -45.5}
+        - {x: 24.5, y: -45.5}
+        - {x: 35.5, y: -44.5}
+        - {x: 45.5, y: -22.5}
+        - {x: 45.5, y: 29.5}
+        - {x: 32.5, y: 45.5}
+    - name: Donitsihaukkaus_7
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 210
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 45.5}
+        - {x: -45.5, y: 40.5}
+        - {x: -45.5, y: -39.5}
+        - {x: -32.5, y: -45.5}
+        - {x: 24.5, y: -45.5}
+        - {x: 35.5, y: -44.5}
+        - {x: 45.5, y: -22.5}
+        - {x: 45.5, y: 29.5}
+        - {x: 32.5, y: 45.5}
+    - name: Donitsihaukkaus_8
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 210
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 45.5}
+        - {x: -45.5, y: 40.5}
+        - {x: -45.5, y: -39.5}
+        - {x: -32.5, y: -45.5}
+        - {x: 24.5, y: -45.5}
+        - {x: 35.5, y: -44.5}
+        - {x: 45.5, y: -22.5}
+        - {x: 45.5, y: 29.5}
+        - {x: 32.5, y: 45.5}
+    - name: Donitsihaukkaus_9
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 210
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 45.5}
+        - {x: -45.5, y: 40.5}
+        - {x: -45.5, y: -39.5}
+        - {x: -32.5, y: -45.5}
+        - {x: 24.5, y: -45.5}
+        - {x: 35.5, y: -44.5}
+        - {x: 45.5, y: -22.5}
+        - {x: 45.5, y: 29.5}
+        - {x: 32.5, y: 45.5}
+    - name: Donitsihaukkaus_10
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 210
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 45.5}
+        - {x: -45.5, y: 40.5}
+        - {x: -45.5, y: -39.5}
+        - {x: -32.5, y: -45.5}
+        - {x: 24.5, y: -45.5}
+        - {x: 35.5, y: -44.5}
+        - {x: 45.5, y: -22.5}
+        - {x: 45.5, y: 29.5}
+        - {x: 32.5, y: 45.5}
+    - name: Donitsihaukkaus_11
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 210
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 45.5}
+        - {x: -45.5, y: 40.5}
+        - {x: -45.5, y: -39.5}
+        - {x: -32.5, y: -45.5}
+        - {x: 24.5, y: -45.5}
+        - {x: 35.5, y: -44.5}
+        - {x: 45.5, y: -22.5}
+        - {x: 45.5, y: 29.5}
+        - {x: 32.5, y: 45.5}
+    - name: Donitsihaukkaus_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 77
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 45.5}
+        - {x: -45.5, y: 40.5}
+        - {x: -45.5, y: -39.5}
+        - {x: -32.5, y: -45.5}
+        - {x: 24.5, y: -45.5}
+        - {x: 35.5, y: -44.5}
+        - {x: 45.5, y: -22.5}
+        - {x: 45.5, y: 29.5}
+        - {x: 32.5, y: 45.5}
+    - name: Donitsihaukkaus_13
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 77
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 45.5}
+        - {x: -45.5, y: 40.5}
+        - {x: -45.5, y: -39.5}
+        - {x: -32.5, y: -45.5}
+        - {x: 24.5, y: -45.5}
+        - {x: 35.5, y: -44.5}
+        - {x: 45.5, y: -22.5}
+        - {x: 45.5, y: 29.5}
+        - {x: 32.5, y: 45.5}
+    - name: Donitsihaukkaus_14
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 77
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 45.5}
+        - {x: -45.5, y: 40.5}
+        - {x: -45.5, y: -39.5}
+        - {x: -32.5, y: -45.5}
+        - {x: 24.5, y: -45.5}
+        - {x: 35.5, y: -44.5}
+        - {x: 45.5, y: -22.5}
+        - {x: 45.5, y: 29.5}
+        - {x: 32.5, y: 45.5}
+    - name: Donitsihaukkaus_15
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 77
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 45.5}
+        - {x: -45.5, y: 40.5}
+        - {x: -45.5, y: -39.5}
+        - {x: -32.5, y: -45.5}
+        - {x: 24.5, y: -45.5}
+        - {x: 35.5, y: -44.5}
+        - {x: 45.5, y: -22.5}
+        - {x: 45.5, y: 29.5}
+        - {x: 32.5, y: 45.5}
+    - name: Donitsihaukkaus_16
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 77
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 45.5}
+        - {x: -45.5, y: 40.5}
+        - {x: -45.5, y: -39.5}
+        - {x: -32.5, y: -45.5}
+        - {x: 24.5, y: -45.5}
+        - {x: 35.5, y: -44.5}
+        - {x: 45.5, y: -22.5}
+        - {x: 45.5, y: 29.5}
+        - {x: 32.5, y: 45.5}
+    - name: Donitsihaukkaus_17
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 77
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 45.5}
+        - {x: -45.5, y: 40.5}
+        - {x: -45.5, y: -39.5}
+        - {x: -32.5, y: -45.5}
+        - {x: 24.5, y: -45.5}
+        - {x: 35.5, y: -44.5}
+        - {x: 45.5, y: -22.5}
+        - {x: 45.5, y: 29.5}
+        - {x: 32.5, y: 45.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
