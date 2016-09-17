@@ -24,7 +24,7 @@ public class EnemyAI : MonoBehaviour {
         nodes = GameObject.FindGameObjectsWithTag("Node");
         computers = new List<GameObject>();
         speed = 5;
-        GameObject[] comp = GameObject.FindGameObjectsWithTag("Computer");
+        GameObject[] comp = GameObject.FindGameObjectsWithTag("computer");
         for(int i = 0; i < comp.Length; i++)
         {
             computers.Add(comp[i]);
