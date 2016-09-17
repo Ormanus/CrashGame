@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-#if UNITY_EDITOR
+//#if UNITY_EDITOR
 using UnityEditor;
-#endif
+//#endif
 
 public class Waypoint : MonoBehaviour {
 
@@ -58,7 +58,7 @@ public class Waypoint : MonoBehaviour {
         }
 	}
 
-#if UNITY_EDITOR
+//#if UNITY_EDITOR
 
     [MenuItem("My Commands/Disconnect %k")]
     static void Disconnect()
@@ -165,5 +165,5 @@ public class Waypoint : MonoBehaviour {
         Gizmos.DrawSphere(transform.position, 0.05f);
     }
 
-#endif
+//#endif
 }
