@@ -2,6 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 
+class searchNode
+{
+    public searchNode previous;
+    public float distance;
+    public float total;
+}
+
 public class EnemyAI : MonoBehaviour {
 
     Transform target;
@@ -10,8 +17,11 @@ public class EnemyAI : MonoBehaviour {
     float updateTimer = 0;
     float fixTimer = 0;
 
+    GameObject[] nodes;
+
 	// Use this for initialization
 	void Start () {
+        nodes = GameObject.FindGameObjectsWithTag("Node");
         computers = new List<GameObject>();
         speed = 5;
         GameObject[] comp = GameObject.FindGameObjectsWithTag("Computer");
@@ -87,5 +97,24 @@ public class EnemyAI : MonoBehaviour {
         }
         if(nearest != null)
             target = nearest;
+    }
+
+    void WaypointTarget()
+    {
+        List<searchNode> startNodes = new List<searchNode>();
+
+        for(int i = 0; i < computers.Count; i++)
+        {
+            if(computers[i].GetComponent<Computer>().state != ComputerState.Running)
+            {
+                searchNode n = new searchNode();
+                n.previous = null;
+                n.distance = 0;
+                n.total = 0;
+            }
+        }
+
+
+
     }
 }

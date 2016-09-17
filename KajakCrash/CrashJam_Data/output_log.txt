@@ -1,0 +1,43 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 730   (ID=0x1287)
+    Vendor:   NVIDIA
+    VRAM:     1994 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\johankuu\Desktop\Projekti\CrashGame\KajakCrash\CrashJam_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\johankuu\Desktop\Projekti\CrashGame\KajakCrash\CrashJam_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\johankuu\Desktop\Projekti\CrashGame\KajakCrash\CrashJam_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\johankuu\Desktop\Projekti\CrashGame\KajakCrash\CrashJam_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\johankuu\Desktop\Projekti\CrashGame\KajakCrash\CrashJam_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\johankuu\Desktop\Projekti\CrashGame\KajakCrash\CrashJam_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\johankuu\Desktop\Projekti\CrashGame\KajakCrash\CrashJam_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\johankuu\Desktop\Projekti\CrashGame\KajakCrash\CrashJam_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.048 seconds
+Platform assembly: C:\Users\johankuu\Desktop\Projekti\CrashGame\KajakCrash\CrashJam_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\johankuu\Desktop\Projekti\CrashGame\KajakCrash\CrashJam_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.848061 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.606738 ms
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 170.
+Total: 0.500485 ms (FindLiveObjects: 0.009312 ms CreateObjectMapping: 0.008711 ms MarkObjects: 0.163123 ms  DeleteObjects: 0.318436 ms)
+
+Kenttä
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.334057 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 222.
+Total: 0.196168 ms (FindLiveObjects: 0.021329 ms CreateObjectMapping: 0.024032 ms MarkObjects: 0.133082 ms  DeleteObjects: 0.017423 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 14f4 -> priority: 1 
+  Thread -> id: 3b58 -> priority: 1 
