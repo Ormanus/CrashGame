@@ -5,11 +5,56 @@ using UnityEditor;
 
 public class Waypoint : MonoBehaviour {
 
-    public List<Transform> connections;
+    [SerializeField]
+    public GameObject[] connections;
+    public int Count;
+
+    public void AddConnection(GameObject go)
+    {
+        GameObject[] newList = new GameObject[connections.Length + 1];
+        for(int i = 0; i < connections.Length; i++)
+        {
+            newList[i] = connections[i];
+        }
+        newList[newList.Length - 1] = go;
+        connections = newList;
+        Count++;
+    }
+
+    public void RemoveConnection(GameObject go)
+    {
+        bool itemFound = false;
+        for (int i = 0; i < connections.Length; i++)
+        {
+            if(connections[i] == go)
+            {
+                itemFound = true;
+                for (int j = i; j < connections.Length - 1; j++)
+                {
+                    connections[j] = connections[j + 1];
+                }
+                break;
+            }
+        }
+        if(itemFound)
+        {
+            GameObject[] newList = new GameObject[connections.Length - 1];
+            for (int i = 0; i < connections.Length - 1; i++ )
+            {
+                newList[i] = connections[i];
+            }
+            connections = newList;
+            Count--;
+        }
+    }
 
 	// Use this for initialization
 	void Start () {
-        connections = new List<Transform>();
+        if(connections == null)
+        {
+            connections = new GameObject[0];
+            Count = 0;
+        }
 	}
 	
 	// Update is called once per frame
@@ -39,8 +84,13 @@ public class Waypoint : MonoBehaviour {
                 Waypoint w1 = nodes[i].GetComponent<Waypoint>();
                 Waypoint w2 = nodes[k].GetComponent<Waypoint>();
 
-                w1.connections.Remove(nodes[k].transform);
-                w2.connections.Remove(nodes[i].transform);
+                Undo.RecordObject(w1, "Disconnect");
+                Undo.RecordObject(w2, "Disconnect");
+                EditorUtility.SetDirty(w1);
+                EditorUtility.SetDirty(w2);
+
+                w1.RemoveConnection(nodes[k].gameObject);
+                w2.RemoveConnection(nodes[i].gameObject);
             }
         }
     }
@@ -70,7 +120,7 @@ public class Waypoint : MonoBehaviour {
                     Waypoint w1 = nodes[i].GetComponent<Waypoint>();
                     Waypoint w2 = nodes[k].GetComponent<Waypoint>();
 
-                    for (int j = 0; j < w1.connections.Count; j++)
+                    for (int j = 0; j < w1.Count; j++)
                     {
                         if (w1.connections[j] == nodes[k])
                         {
@@ -80,8 +130,14 @@ public class Waypoint : MonoBehaviour {
                     }
                     if (!found)
                     {
-                        w1.connections.Add(nodes[k]);
-                        w2.connections.Add(nodes[i]);
+                        Undo.RecordObject(w1, "Connect");
+                        Undo.RecordObject(w2, "Connect");
+
+                        w1.AddConnection(nodes[k].gameObject);
+                        w2.AddConnection(nodes[i].gameObject);
+
+                        EditorUtility.SetDirty(w1);
+                        EditorUtility.SetDirty(w2);
                     }
                 }
             }
@@ -92,16 +148,16 @@ public class Waypoint : MonoBehaviour {
     {
         if(connections == null)
         {
-            connections = new List<Transform>();
+            Start();
         }
 
         Gizmos.color = Color.yellow;
         Gizmos.DrawSphere(transform.position, 0.04f);
 
-        for (int i = 0; i < connections.Count; i++)
+        for (int i = 0; i < Count; i++)
         {
             Gizmos.color = Color.white;
-            Gizmos.DrawLine(transform.position, connections[i].position);
+            Gizmos.DrawLine(transform.position, connections[i].transform.position);
         }
     }
 
