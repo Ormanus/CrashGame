@@ -1,0 +1,581 @@
+fileFormatVersion: 2
+guid: 1754acc34e68d2147a7790c4a783ed98
+timeCreated: 1474065771
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Kualema_0
+    21300002: Kualema_1
+    21300004: Kualema_2
+    21300006: Kualema_3
+    21300008: Kualema_4
+    21300010: Kualema_5
+    21300012: Kualema_6
+    21300014: Kualema_7
+    21300016: Kualema_8
+    21300018: Kualema_9
+    21300020: Kualema_10
+    21300022: Kualema_11
+    21300024: Kualema_12
+    21300026: Kualema_13
+    21300028: Kualema_14
+    21300030: Kualema_15
+    21300032: Kualema_16
+    21300034: Kualema_17
+    21300036: Kualema_18
+    21300038: Kualema_19
+    21300040: Kualema_20
+    21300042: Kualema_21
+    21300044: Kualema_22
+    21300046: Kualema_23
+    21300048: Kualema_24
+    21300050: Kualema_25
+    21300052: Kualema_26
+    21300054: Kualema_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Kualema_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 334
+        width: 114
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 38}
+        - {x: 10, y: 43}
+        - {x: -53, y: 43}
+        - {x: -57, y: 40}
+        - {x: -57, y: -27}
+        - {x: -38, y: -43}
+        - {x: 26, y: -43}
+        - {x: 57, y: -2}
+        - {x: 57, y: 20}
+        - {x: 54, y: 22}
+    - name: Kualema_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 325
+        width: 112
+        height: 87
+      alignment: 9
+      pivot: {x: 0.44954082, y: 0.4721606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.34857, y: 45.922028}
+        - {x: -50.34857, y: -15.077972}
+        - {x: -28.348572, y: -41.077972}
+        - {x: 25.651428, y: -41.077972}
+        - {x: 61.65143, y: -6.0779724}
+        - {x: 61.65143, y: 24.922028}
+        - {x: 28.651428, y: 45.922028}
+    - name: Kualema_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 328
+        width: 113
+        height: 102
+      alignment: 9
+      pivot: {x: 0.50714463, y: 0.3891877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.692657, y: 62.302856}
+        - {x: -34.307343, y: 62.302856}
+        - {x: -57.307343, y: 35.302856}
+        - {x: -57.307343, y: -22.697144}
+        - {x: -22.307343, y: -39.697144}
+        - {x: 27.692657, y: -39.697144}
+        - {x: 40.692657, y: -24.697144}
+        - {x: 55.692657, y: 0.30285645}
+        - {x: 55.692657, y: 23.302856}
+    - name: Kualema_3
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 331
+        width: 104
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5155258, y: 0.42742956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.385315, y: 39.95877}
+        - {x: -10.614685, y: 50.95877}
+        - {x: -40.614685, y: 50.95877}
+        - {x: -53.614685, y: 26.95877}
+        - {x: -53.614685, y: -12.041229}
+        - {x: -37.614685, y: -38.04123}
+        - {x: 25.385315, y: -38.04123}
+        - {x: 47.385315, y: -7.0412292}
+        - {x: 50.385315, y: 7.9587708}
+        - {x: 50.385315, y: 37.95877}
+    - name: Kualema_4
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 340
+        width: 105
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5615118, y: 0.4182434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.04126, y: 45.95877}
+        - {x: -32.95874, y: 45.95877}
+        - {x: -58.95874, y: 12.958771}
+        - {x: -58.95874, y: -26.04123}
+        - {x: -37.95874, y: -33.04123}
+        - {x: 39.04126, y: -33.04123}
+        - {x: 46.04126, y: -11.041229}
+        - {x: 46.04126, y: 32.95877}
+    - name: Kualema_5
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 343
+        width: 88
+        height: 78
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43789634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 43.844086}
+        - {x: -44, y: -34.155914}
+        - {x: 22, y: -34.155914}
+        - {x: 44, y: 1.8440857}
+        - {x: 44, y: 29.844086}
+        - {x: -5, y: 43.844086}
+    - name: Kualema_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 218
+        width: 79
+        height: 92
+      alignment: 9
+      pivot: {x: 0.44890198, y: 0.49122453}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.463257, y: 46.807343}
+        - {x: -35.463257, y: 41.807343}
+        - {x: -35.463257, y: -41.192657}
+        - {x: -32.463257, y: -45.192657}
+        - {x: 3.5367432, y: -45.192657}
+        - {x: 43.536743, y: -14.192657}
+        - {x: 43.536743, y: 23.807343}
+        - {x: 1.5367432, y: 46.807343}
+    - name: Kualema_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 224
+        width: 78
+        height: 82
+      alignment: 9
+      pivot: {x: 0.46894816, y: 0.5196913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5779572, y: 39.385315}
+        - {x: -36.577957, y: 39.385315}
+        - {x: -36.577957, y: -23.614685}
+        - {x: -25.577957, y: -42.614685}
+        - {x: 10.422043, y: -42.614685}
+        - {x: 20.422043, y: -30.614685}
+        - {x: 41.422043, y: -0.61468506}
+        - {x: 41.422043, y: 26.385315}
+        - {x: 40.422043, y: 26.385315}
+    - name: Kualema_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 231
+        width: 76
+        height: 72
+      alignment: 9
+      pivot: {x: 0.44688496, y: 0.5224262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.963257, y: 34.385315}
+        - {x: -33.963257, y: -26.614685}
+        - {x: -18.963257, y: -37.614685}
+        - {x: 16.036743, y: -37.614685}
+        - {x: 42.036743, y: -4.614685}
+        - {x: 42.036743, y: 24.385315}
+        - {x: 28.036743, y: 34.385315}
+    - name: Kualema_9
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 234
+        width: 78
+        height: 73
+      alignment: 9
+      pivot: {x: 0.37579268, y: 0.522119}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.311829, y: 34.885315}
+        - {x: -29.311829, y: 24.885315}
+        - {x: -29.311829, y: -29.114685}
+        - {x: -7.3118286, y: -38.114685}
+        - {x: 28.688171, y: -38.114685}
+        - {x: 48.68817, y: 5.885315}
+        - {x: 48.68817, y: 25.885315}
+        - {x: -0.3118286, y: 34.885315}
+    - name: Kualema_10
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 232
+        width: 64
+        height: 76
+      alignment: 9
+      pivot: {x: 0.42431164, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.844055, y: 38}
+        - {x: 25.844055, y: 35}
+        - {x: -17.155945, y: 27}
+        - {x: -27.155945, y: 23}
+        - {x: -27.155945, y: -15}
+        - {x: -8.155945, y: -38}
+        - {x: 36.844055, y: -38}
+        - {x: 36.844055, y: 38}
+    - name: Kualema_11
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 239
+        width: 60
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 27}
+        - {x: -30, y: 25}
+        - {x: -30, y: -20}
+        - {x: -13, y: -27}
+        - {x: 14, y: -27}
+        - {x: 27, y: 6}
+        - {x: 30, y: 15}
+        - {x: 30, y: 27}
+    - name: Kualema_12
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 148
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 19}
+        - {x: -19.5, y: -9}
+        - {x: -8.5, y: -22}
+        - {x: 17.5, y: -22}
+        - {x: 19.5, y: -13}
+        - {x: 19.5, y: 22}
+        - {x: -9.5, y: 22}
+    - name: Kualema_13
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 158
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: -10}
+        - {x: -2.5, y: -21}
+        - {x: 16.5, y: -21}
+        - {x: 16.5, y: 21}
+        - {x: -4.5, y: 21}
+        - {x: -16.5, y: 19}
+    - name: Kualema_14
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 167
+        width: 35
+        height: 32
+      alignment: 9
+      pivot: {x: 0.40773228, y: 0.4495411}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.27063, y: 17.614685}
+        - {x: -14.27063, y: 9.614685}
+        - {x: -14.27063, y: -12.385315}
+        - {x: -8.27063, y: -13.385315}
+        - {x: -5.27063, y: -14.385315}
+        - {x: 20.72937, y: -14.385315}
+        - {x: 20.72937, y: 17.614685}
+    - name: Kualema_15
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 176
+        width: 28
+        height: 31
+      alignment: 9
+      pivot: {x: 0.3558306, y: 0.29165205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Kualema_16
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 179
+        width: 17
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41029528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Kualema_17
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 182
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Kualema_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 100
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Kualema_19
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 108
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Kualema_20
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 104
+        width: 29
+        height: 23
+      alignment: 9
+      pivot: {x: 0.4678797, y: 0.50578505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Kualema_21
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 96
+        width: 34
+        height: 29
+      alignment: 9
+      pivot: {x: 0.339535, y: 0.53211975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Kualema_22
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 85
+        width: 44
+        height: 36
+      alignment: 9
+      pivot: {x: 0.4758051, y: 0.62937164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.935425, y: 13.342621}
+        - {x: -20.935425, y: -22.65738}
+        - {x: 20.064575, y: -22.65738}
+        - {x: 23.064575, y: -12.657379}
+        - {x: 23.064575, y: 8.342621}
+        - {x: 13.064575, y: 13.342621}
+    - name: Kualema_23
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 72
+        width: 47
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4631932, y: 0.5803428}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.22992, y: -21.758171}
+        - {x: 25.22992, y: 16.241829}
+        - {x: 9.229919, y: 22.241829}
+        - {x: -21.77008, y: 22.241829}
+        - {x: -21.77008, y: -17.758171}
+        - {x: -10.770081, y: -27.758171}
+        - {x: -1.7700806, y: -30.758171}
+        - {x: 14.229919, y: -30.758171}
+        - {x: 14.229919, y: -26.758171}
+        - {x: 10.229919, y: -21.758171}
+        - {x: 21.22992, y: -23.758171}
+    - name: Kualema_24
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 18
+        width: 63
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4077818, y: 0.5875695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.690254, y: 21.446388}
+        - {x: -25.690254, y: 3.4463882}
+        - {x: -25.690254, y: -25.553612}
+        - {x: -20.690254, y: -27.553612}
+        - {x: -6.690254, y: -30.553612}
+        - {x: -4.690254, y: -30.553612}
+        - {x: -1.6902542, y: -27.553612}
+        - {x: 3.3097458, y: -30.553612}
+        - {x: 37.309746, y: -30.553612}
+        - {x: 37.309746, y: 12.446388}
+        - {x: 26.309746, y: 21.446388}
+    - name: Kualema_25
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 10
+        width: 52
+        height: 61
+      alignment: 9
+      pivot: {x: 0.4637648, y: 0.62098306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.884232, y: 23.120033}
+        - {x: -10.115768, y: 23.120033}
+        - {x: -24.115768, y: 16.120033}
+        - {x: -24.115768, y: -17.879967}
+        - {x: -6.1157684, y: -37.879967}
+        - {x: 12.884232, y: -37.879967}
+        - {x: 13.884232, y: -33.879967}
+        - {x: 26.884232, y: -21.879967}
+        - {x: 27.884232, y: -19.879967}
+    - name: Kualema_26
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 7
+        width: 78
+        height: 67
+      alignment: 9
+      pivot: {x: 0.47181702, y: 0.58671284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.198273, y: 24.690239}
+        - {x: 40.198273, y: 27.690239}
+        - {x: -8.801727, y: 27.690239}
+        - {x: -36.801727, y: 4.690239}
+        - {x: -36.801727, y: -13.309761}
+        - {x: -25.801727, y: -22.309761}
+        - {x: -6.8017273, y: -39.30976}
+        - {x: 24.198273, y: -39.30976}
+        - {x: 37.198273, y: -26.309761}
+        - {x: 36.198273, y: -17.309761}
+        - {x: 41.198273, y: -15.309761}
+    - name: Kualema_27
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 12
+        width: 76
+        height: 62
+      alignment: 9
+      pivot: {x: 0.4524809, y: 0.5607822}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.61145, y: -16.768497}
+        - {x: 37.61145, y: -13.768497}
+        - {x: 37.61145, y: -11.768497}
+        - {x: 32.61145, y: -7.7684975}
+        - {x: 21.61145, y: -5.7684975}
+        - {x: 18.61145, y: -5.7684975}
+        - {x: 27.61145, y: -5.7684975}
+        - {x: 40.61145, y: -7.7684975}
+        - {x: 41.61145, y: -5.7684975}
+        - {x: 41.61145, y: 25.231503}
+        - {x: 33.61145, y: 27.231503}
+        - {x: -10.38855, y: 27.231503}
+        - {x: -13.38855, y: 17.231503}
+        - {x: -34.38855, y: 9.231503}
+        - {x: -34.38855, y: 3.2315025}
+        - {x: -32.38855, y: 1.2315025}
+        - {x: -34.38855, y: -1.7684975}
+        - {x: -34.38855, y: -16.768497}
+        - {x: -10.38855, y: -34.768497}
+        - {x: 18.61145, y: -34.768497}
+        - {x: 18.61145, y: -31.768497}
+        - {x: 15.61145, y: -28.768497}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public enum ComputerState
@@ -8,17 +9,20 @@ public enum ComputerState
     Bluescreen
 };
 
-public class Computer : MonoBehaviour {
+public class Computer : MonoBehaviour
+{
 
     public ComputerState state;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         state = ComputerState.Bluescreen;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	    
-	}
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
 }

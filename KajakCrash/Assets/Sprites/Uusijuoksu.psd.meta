@@ -1,0 +1,490 @@
+fileFormatVersion: 2
+guid: 45a3c9c9ba8909a42b86b27c06adf4b1
+timeCreated: 1474058919
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Uusijuoksu_0
+    21300002: Uusijuoksu_1
+    21300004: Uusijuoksu_2
+    21300006: Uusijuoksu_3
+    21300008: Uusijuoksu_4
+    21300010: Uusijuoksu_5
+    21300012: Uusijuoksu_6
+    21300014: Uusijuoksu_7
+    21300016: Uusijuoksu_8
+    21300018: Uusijuoksu_9
+    21300020: Uusijuoksu_10
+    21300022: Uusijuoksu_11
+    21300024: Uusijuoksu_12
+    21300026: Uusijuoksu_13
+    21300028: Uusijuoksu_14
+    21300030: Uusijuoksu_15
+    21300032: Uusijuoksu_16
+    21300034: Uusijuoksu_17
+    21300036: Uusijuoksu_18
+    21300038: Uusijuoksu_19
+    21300040: Uusijuoksu_20
+    21300042: Uusijuoksu_21
+    21300044: Uusijuoksu_22
+    21300046: Uusijuoksu_23
+    21300048: Uusijuoksu_24
+    21300050: Uusijuoksu_25
+    21300052: Uusijuoksu_26
+    21300054: Uusijuoksu_27
+    21300056: Uusijuoksu_28
+    21300058: Uusijuoksu_29
+    21300060: Uusijuoksu_30
+    21300062: Uusijuoksu_31
+    21300064: Uusijuoksu_32
+    21300066: Uusijuoksu_33
+    21300068: Uusijuoksu_34
+    21300070: Uusijuoksu_35
+    21300072: Uusijuoksu_36
+    21300074: Uusijuoksu_37
+    21300076: Uusijuoksu_38
+    21300078: Uusijuoksu_39
+    21300080: Uusijuoksu_40
+    21300082: Uusijuoksu_41
+    21300084: Uusijuoksu_42
+    21300086: Uusijuoksu_43
+    21300088: Uusijuoksu_44
+    21300090: Uusijuoksu_45
+    21300092: Uusijuoksu_46
+    21300094: Uusijuoksu_47
+    21300096: Uusijuoksu_48
+    21300098: Uusijuoksu_49
+    21300100: Uusijuoksu_50
+    21300102: Uusijuoksu_51
+    21300104: Uusijuoksu_52
+    21300106: Uusijuoksu_53
+    21300108: Uusijuoksu_54
+    21300110: Uusijuoksu_55
+    21300112: Uusijuoksu_56
+    21300114: Uusijuoksu_57
+    21300116: Uusijuoksu_58
+    21300118: Uusijuoksu_59
+    21300120: Uusijuoksu_60
+    21300122: Uusijuoksu_61
+    21300124: Uusijuoksu_62
+    21300126: Uusijuoksu_63
+    21300128: Uusijuoksu_64
+    21300130: Uusijuoksu_65
+    21300132: Uusijuoksu_66
+    21300134: Uusijuoksu_67
+    21300136: Uusijuoksu_68
+    21300138: Uusijuoksu_69
+    21300140: Uusijuoksu_70
+    21300142: Uusijuoksu_71
+    21300144: Uusijuoksu_72
+    21300146: Uusijuoksu_73
+    21300148: Uusijuoksu_74
+    21300150: Uusijuoksu_75
+    21300152: Uusijuoksu_76
+    21300154: Uusijuoksu_77
+    21300156: Uusijuoksu_78
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Uusijuoksu_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 227
+        width: 97
+        height: 84
+      alignment: 9
+      pivot: {x: 0.475051, y: 0.4609157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.920055, y: 45.28308}
+        - {x: -27.079945, y: 45.28308}
+        - {x: -46.079945, y: 23.283081}
+        - {x: -46.079945, y: -31.716919}
+        - {x: -24.079945, y: -38.71692}
+        - {x: 32.920055, y: -38.71692}
+        - {x: 50.920055, y: -21.716919}
+        - {x: 50.920055, y: 3.283081}
+        - {x: 40.920055, y: 33.28308}
+    - name: Uusijuoksu_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 227
+        width: 97
+        height: 93
+      alignment: 9
+      pivot: {x: 0.4638926, y: 0.41732788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.99759, y: 54.188507}
+        - {x: -44.99759, y: 31.188507}
+        - {x: -44.99759, y: -24.811493}
+        - {x: -32.99759, y: -38.811493}
+        - {x: 33.00241, y: -38.811493}
+        - {x: 52.00241, y: -30.811493}
+        - {x: 52.00241, y: 18.188507}
+        - {x: 25.00241, y: 54.188507}
+    - name: Uusijuoksu_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 226
+        width: 101
+        height: 98
+      alignment: 9
+      pivot: {x: 0.48414594, y: 0.40101156}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.898743, y: 58.700867}
+        - {x: -48.898743, y: 32.700867}
+        - {x: -48.898743, y: -9.299133}
+        - {x: -31.898743, y: -39.299133}
+        - {x: 23.101257, y: -39.299133}
+        - {x: 52.101257, y: -29.299133}
+        - {x: 52.101257, y: 23.700867}
+        - {x: 19.101257, y: 58.700867}
+    - name: Uusijuoksu_3
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 218
+        width: 105
+        height: 115
+      alignment: 9
+      pivot: {x: 0.46720088, y: 0.43009087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.05609, y: 65.53955}
+        - {x: -49.05609, y: 61.53955}
+        - {x: -49.05609, y: -9.460449}
+        - {x: -31.056091, y: -49.46045}
+        - {x: 9.943909, y: -49.46045}
+        - {x: 54.94391, y: -41.46045}
+        - {x: 55.94391, y: -40.46045}
+        - {x: 55.94391, y: 14.539551}
+        - {x: 27.943909, y: 65.53955}
+    - name: Uusijuoksu_4
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 211
+        width: 107
+        height: 129
+      alignment: 9
+      pivot: {x: 0.4791201, y: 0.42472282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.26587, y: 74.210754}
+        - {x: -51.26587, y: -39.789246}
+        - {x: -48.26587, y: -54.789246}
+        - {x: 42.73413, y: -54.789246}
+        - {x: 55.73413, y: -49.789246}
+        - {x: 55.73413, y: 12.210754}
+        - {x: 40.73413, y: 66.210754}
+        - {x: 16.73413, y: 74.210754}
+    - name: Uusijuoksu_5
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 199
+        width: 105
+        height: 134
+      alignment: 9
+      pivot: {x: 0.4725118, y: 0.4968635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.38623, y: 67.42029}
+        - {x: -24.61377, y: 67.42029}
+        - {x: -49.61377, y: 57.420288}
+        - {x: -49.61377, y: 0.4202881}
+        - {x: -47.61377, y: -14.579712}
+        - {x: -21.61377, y: -66.57971}
+        - {x: -5.6137695, y: -66.57971}
+        - {x: 52.38623, y: -48.579712}
+        - {x: 55.38623, y: -46.579712}
+        - {x: 55.38623, y: -2.579712}
+    - name: Uusijuoksu_6
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 212
+        width: 113
+        height: 112
+      alignment: 9
+      pivot: {x: 0.4648474, y: 0.47130474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.52777, y: 59.213867}
+        - {x: -52.52777, y: 3.2138672}
+        - {x: -29.527771, y: -52.786133}
+        - {x: 60.47223, y: -52.786133}
+        - {x: 60.47223, y: 12.213867}
+        - {x: 22.472229, y: 59.213867}
+    - name: Uusijuoksu_7
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 205
+        width: 109
+        height: 122
+      alignment: 9
+      pivot: {x: 0.4513854, y: 0.49655503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.79895, y: 59.420288}
+        - {x: -7.20105, y: 61.420288}
+        - {x: -49.20105, y: 61.420288}
+        - {x: -49.20105, y: -23.579712}
+        - {x: -15.20105, y: -60.579712}
+        - {x: 59.79895, y: -60.579712}
+        - {x: 59.79895, y: 7.420288}
+        - {x: 22.79895, y: 58.420288}
+    - name: Uusijuoksu_8
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 193
+        width: 108
+        height: 142
+      alignment: 9
+      pivot: {x: 0.4791746, y: 0.5144501}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.750854, y: 68.94809}
+        - {x: -51.750854, y: -33.05191}
+        - {x: -24.750854, y: -67.05191}
+        - {x: 0.24914551, y: -73.05191}
+        - {x: 56.249146, y: -73.05191}
+        - {x: 56.249146, y: -33.05191}
+        - {x: 53.249146, y: 1.9480896}
+        - {x: 18.249146, y: 53.94809}
+        - {x: -11.7508545, y: 68.94809}
+    - name: Uusijuoksu_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 98
+        height: 90
+      alignment: 9
+      pivot: {x: 0.4916247, y: 0.46808106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.820778, y: 47.872704}
+        - {x: -21.179222, y: 47.872704}
+        - {x: -48.179222, y: 12.872704}
+        - {x: -48.179222, y: -32.127296}
+        - {x: -20.179222, y: -42.127296}
+        - {x: 30.820778, y: -42.127296}
+        - {x: 41.820778, y: -31.127296}
+        - {x: 49.820778, y: -11.127296}
+        - {x: 49.820778, y: 23.872704}
+    - name: Uusijuoksu_10
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 29
+        width: 103
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40880337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.5, y: -31.471535}
+        - {x: -42.5, y: -40.471535}
+        - {x: 26.5, y: -40.471535}
+        - {x: 51.5, y: -24.471535}
+        - {x: 51.5, y: 29.528465}
+        - {x: 38.5, y: 52.528465}
+        - {x: 19.5, y: 58.528465}
+        - {x: -23.5, y: 58.528465}
+        - {x: -51.5, y: 2.5284653}
+    - name: Uusijuoksu_11
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 25
+        width: 99
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5082906, y: 0.41562182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.32077, y: 25.528465}
+        - {x: -50.32077, y: -33.471535}
+        - {x: -42.32077, y: -44.471535}
+        - {x: 27.67923, y: -44.471535}
+        - {x: 48.67923, y: -27.471535}
+        - {x: 48.67923, y: 36.528465}
+        - {x: 47.67923, y: 36.528465}
+        - {x: 18.67923, y: 62.528465}
+        - {x: -18.32077, y: 62.528465}
+        - {x: -36.32077, y: 55.528465}
+    - name: Uusijuoksu_12
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 17
+        width: 105
+        height: 124
+      alignment: 9
+      pivot: {x: 0.48436627, y: 0.41064206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.85846, y: 73.08038}
+        - {x: -36.85846, y: 66.08038}
+        - {x: -50.85846, y: 15.080383}
+        - {x: -50.85846, y: -34.919617}
+        - {x: 1.1415405, y: -50.919617}
+        - {x: 34.14154, y: -50.919617}
+        - {x: 54.14154, y: -9.919617}
+        - {x: 54.14154, y: 47.080383}
+        - {x: 19.14154, y: 73.08038}
+    - name: Uusijuoksu_13
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 5
+        width: 102
+        height: 143
+      alignment: 9
+      pivot: {x: 0.47183648, y: 0.46269226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.12732, y: 76.83501}
+        - {x: -48.12732, y: 9.835007}
+        - {x: -48.12732, y: -48.164993}
+        - {x: -1.1273193, y: -66.16499}
+        - {x: 35.87268, y: -66.16499}
+        - {x: 53.87268, y: -44.164993}
+        - {x: 53.87268, y: 76.83501}
+    - name: Uusijuoksu_14
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 0
+        width: 109
+        height: 143
+      alignment: 9
+      pivot: {x: 0.47740972, y: 0.47130185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.96234, y: 33.603836}
+        - {x: 23.962341, y: 69.603836}
+        - {x: 2.9623413, y: 75.603836}
+        - {x: -29.037659, y: 75.603836}
+        - {x: -52.03766, y: 11.603836}
+        - {x: -52.03766, y: -41.396164}
+        - {x: -43.03766, y: -39.396164}
+        - {x: -38.03766, y: -33.396164}
+        - {x: 4.9623413, y: -67.396164}
+        - {x: 23.962341, y: -67.396164}
+        - {x: 56.96234, y: 14.603836}
+        - {x: 56.96234, y: 37.603836}
+        - {x: 48.96234, y: 37.603836}
+    - name: Uusijuoksu_15
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 15
+        width: 111
+        height: 117
+      alignment: 9
+      pivot: {x: 0.46672595, y: 0.4508942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.80658, y: 64.24538}
+        - {x: -51.80658, y: -6.7546234}
+        - {x: -51.80658, y: -50.754623}
+        - {x: -42.80658, y: -52.754623}
+        - {x: 30.19342, y: -52.754623}
+        - {x: 59.19342, y: 14.245377}
+        - {x: 59.19342, y: 59.245377}
+        - {x: 49.19342, y: 64.24538}
+    - name: Uusijuoksu_16
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 15
+        width: 108
+        height: 113
+      alignment: 9
+      pivot: {x: 0.4772011, y: 0.4727877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.46228, y: 59.57499}
+        - {x: -51.53772, y: 59.57499}
+        - {x: -51.53772, y: -53.42501}
+        - {x: 36.46228, y: -53.42501}
+        - {x: 54.46228, y: -4.4250107}
+        - {x: 56.46228, y: 13.574989}
+        - {x: 56.46228, y: 58.57499}
+    - name: Uusijuoksu_17
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1
+        width: 112
+        height: 133
+      alignment: 9
+      pivot: {x: 0.474124, y: 0.4969145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.10193, y: 32.91037}
+        - {x: -53.10193, y: -57.08963}
+        - {x: -51.10193, y: -66.08963}
+        - {x: -17.101929, y: -66.08963}
+        - {x: 14.898071, y: -58.08963}
+        - {x: 58.89807, y: -10.08963}
+        - {x: 58.89807, y: 66.91037}
+        - {x: 13.898071, y: 66.91037}
+        - {x: -43.10193, y: 52.91037}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 
 public class Waypoint : MonoBehaviour {
 
@@ -48,7 +50,6 @@ public class Waypoint : MonoBehaviour {
         }
     }
 
-	// Use this for initialization
 	void Start () {
         if(connections == null)
         {
@@ -56,11 +57,8 @@ public class Waypoint : MonoBehaviour {
             Count = 0;
         }
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	    
-	}
+
+#if UNITY_EDITOR
 
     [MenuItem("My Commands/Disconnect %k")]
     static void Disconnect()
@@ -166,4 +164,6 @@ public class Waypoint : MonoBehaviour {
         Gizmos.color = Color.red;
         Gizmos.DrawSphere(transform.position, 0.05f);
     }
+
+#endif
 }
