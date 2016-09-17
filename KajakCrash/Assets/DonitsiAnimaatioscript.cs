@@ -20,7 +20,7 @@ public class DonitsiAnimaatioscript : MonoBehaviour {
         {
 
             System.Random rnd = new System.Random();
-            int tila = rnd.Next(1, 5);
+            int tila = rnd.Next(1, 6);
             bool syö = (tila == 3);
             bool juo = (tila == 4);
             
