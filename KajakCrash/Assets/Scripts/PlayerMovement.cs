@@ -40,6 +40,6 @@ public class PlayerMovement : MonoBehaviour {
             rb.velocity -= new Vector2(Mathf.Cos(direction), Mathf.Sin(direction)) * speed;
         }
 
-        transform.eulerAngles = new Vector3(0, 0, direction / Mathf.PI * 180);
+        transform.eulerAngles = new Vector3(0, 0, direction / Mathf.PI * 180 - 90);
     }
 }
