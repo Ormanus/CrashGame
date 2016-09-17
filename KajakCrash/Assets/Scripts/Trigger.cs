@@ -8,8 +8,9 @@ public class Trigger : MonoBehaviour
     public Text name_text;
     bool playerIsNear;
 
-    void start()
+    void Start()
     {
+        name_text = GameObject.Find("SpaceAvailable").GetComponentInChildren<Text>();
         playerIsNear = false;
         name_text.text = "teksti toimii";
     }
@@ -25,9 +26,11 @@ public class Trigger : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        name_text.text = "space available";
-        playerIsNear = true;
-
+        if (other.gameObject.CompareTag("Player"))
+        {
+            name_text.text = "space available";
+            playerIsNear = true;
+        }
         
     }
 
