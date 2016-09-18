@@ -9,11 +9,14 @@ public class Trigger : MonoBehaviour
     public GameObject minigameObject;
     bool playerIsNear;
 
-    void Start()
+    public GameObject minigameObject;
+    public Minigame minigame;
+
+    void start()
     {
-        name_text = GameObject.Find("SpaceAvailable").GetComponentInChildren<Text>();
         playerIsNear = false;
         name_text.text = "teksti toimii";
+        minigame = minigameObject.GetComponent<Minigame>();
     }
 
     void Update()
@@ -31,7 +34,7 @@ public class Trigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             other.GetComponent<Animator>().SetBool("hack", true);
-            name_text.text = "space available";
+            name_text.text = "press space";
             playerIsNear = true;
 
         }
@@ -39,11 +42,9 @@ public class Trigger : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
-        {
-            other.GetComponent<Animator>().SetBool("hack", false);
-            name_text.text = "";
-            playerIsNear = false;
-        }
+        name_text.text = "";
+        playerIsNear = false;
+        minigame.hacking = false;
+        minigame.gameObject.SetActive(false);
     }
 }

@@ -1,38 +1,67 @@
+﻿
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class Minigame : MonoBehaviour {
 
-    string password;
-    string text;
-    string[] pool;
+    
+string password;
+    
+string text;
+    
+string[] pool;
 
-    Computer computer;
+    
+Computer computer;
 
-    void Start()
+    
+void Start()
     {
+
         pool = new string[]
-        {
-            "asd",
-            "dsa",
-            ".exe",
-            "lolollol"
-        };
-        password = "qwertyiuop";
-        text = "";
-    }
 
-    void Update()
-    {
-        foreach (char c in Input.inputString)
         {
+
+            "asd",
+
+            "dsa",
+
+            ".exe",
+
+            "lolollol"
+
+        };
+        
+password = "qwertyiuop";
+
+        text = "";
+ 
+   }
+
+    
+void Update()
+
+    {
+ 
+       foreach (char c in Input.inputString)
+
+        {
+
             if(text.Length == 0 && c == ' ')
+
             {
+
                 continue;
+
             }
+
             if (c == "\b"[0])
+
                 if (text.Length != 0)
+
                     text = text.Substring(0, text.Length - 1);
+
                 else
                     text += c;
             Debug.Log(text);
