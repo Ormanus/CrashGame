@@ -11,8 +11,11 @@ public class Trigger : MonoBehaviour
     Computer computer;
     public static Minigame minigame;
 
+    PlayAudio audio;
+
     void Start()
     {
+        audio = GameObject.Find("EffectSource").GetComponent<PlayAudio>();
         playerIsNear = false;
         name_text = GameObject.Find("SpaceCanvas").GetComponentInChildren<Text>();
         computer = gameObject.GetComponent<Computer>();
@@ -28,6 +31,8 @@ public class Trigger : MonoBehaviour
             playerIsNear = false;
             minigame = Instantiate(minigameObject).GetComponent<Minigame>();
             minigame.Hack(computer);
+            name_text.text = "";
+            audio.PlaySound(2);
             //gameObject.GetComponent<Computer>().state = ComputerState.Off;
         }
     }
