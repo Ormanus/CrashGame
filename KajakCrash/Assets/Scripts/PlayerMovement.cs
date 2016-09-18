@@ -17,12 +17,19 @@ public class PlayerMovement : MonoBehaviour {
 
     void FixedUpdate()
     {
-        if(SceneController.state != GameState.Game)
+        Rigidbody2D rb = gameObject.GetComponent<Rigidbody2D>();
+        rb.velocity = Vector2.zero;
+        rb.angularVelocity = 0;
+
+        if(SceneController.state != GameState.Game || Trigger.minigame != null)
         {
             return;
         }
-        Rigidbody2D rb = gameObject.GetComponent<Rigidbody2D>();
-        rb.velocity = Vector2.zero;
+        else if(SceneController.state != GameState.Lose)
+        {
+            rb.angularVelocity = 1;
+        }
+        
 
         float speed = 5;
         float angularSpeed = 0.08f;

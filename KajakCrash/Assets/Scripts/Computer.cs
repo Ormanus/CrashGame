@@ -17,7 +17,7 @@ public class Computer : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        state = ComputerState.Bluescreen;
+        state = ComputerState.Running;
     }
 
     // Update is called once per frame
