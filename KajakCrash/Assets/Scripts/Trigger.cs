@@ -26,15 +26,27 @@ public class Trigger : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        name_text.text = "space available";
-        playerIsNear = true;
+        if (other.CompareTag("Player"))
+        {
+            other.GetComponent<Animator>().SetBool("hack", true);
+            name_text.text = "space available";
+            playerIsNear = true;
+
+        }
+
+       
+        
 
         
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-        name_text.text = "";
-        playerIsNear = false;
+        if (other.CompareTag("Player"))
+        {
+            other.GetComponent<Animator>().SetBool("hack", false);
+            name_text.text = "";
+            playerIsNear = false;
+        }
     }
 }

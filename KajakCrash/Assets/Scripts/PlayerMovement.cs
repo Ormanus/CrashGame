@@ -17,11 +17,15 @@ public class PlayerMovement : MonoBehaviour {
 
     void FixedUpdate()
     {
+        if(SceneController.state != GameState.Game)
+        {
+            return;
+        }
         Rigidbody2D rb = gameObject.GetComponent<Rigidbody2D>();
         rb.velocity = Vector2.zero;
 
         float speed = 5;
-        float angularSpeed = 0.05f;
+        float angularSpeed = 0.08f;
 
         if (Input.GetAxisRaw("Horizontal") > 0.5f)
         {
@@ -40,6 +44,6 @@ public class PlayerMovement : MonoBehaviour {
             rb.velocity -= new Vector2(Mathf.Cos(direction), Mathf.Sin(direction)) * speed;
         }
 
-        transform.eulerAngles = new Vector3(0, 0, direction / Mathf.PI * 180);
+        transform.eulerAngles = new Vector3(0, 0, direction / Mathf.PI * 180 -90);
     }
 }

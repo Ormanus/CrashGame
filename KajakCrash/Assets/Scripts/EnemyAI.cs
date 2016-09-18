@@ -199,6 +199,8 @@ public class EnemyAI : MonoBehaviour {
                 float direction = Mathf.Atan2(delta.y, delta.x) + Mathf.PI * 2;
 
                 GetComponent<Rigidbody2D>().velocity = new Vector3(Mathf.Cos(direction) * speed, Mathf.Sin(direction) * speed);
+
+                transform.eulerAngles = new Vector3(0, 0, direction / Mathf.PI * 180 - 90);
             }
         }
         if(path == null)

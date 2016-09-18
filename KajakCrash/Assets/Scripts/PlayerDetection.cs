@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerDetection : MonoBehaviour {
 
@@ -16,7 +17,7 @@ public class PlayerDetection : MonoBehaviour {
             if (hit.collider == null)
             {
                 Debug.Log("Game over!");
-                //TheEnd = 3
+                GameObject.Find("SceneController").GetComponent<SceneController>().EndGame(GameState.Lose);
             }
        }       
     }
