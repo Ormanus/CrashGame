@@ -21,11 +21,11 @@ public class DonitsiAnimaatioscript : MonoBehaviour {
 
             System.Random rnd = new System.Random();
             int tila = rnd.Next(1, 5);
-            bool syö = (tila == 3);
+            bool syo = (tila == 3);
             bool juo = (tila == 4);
             
             animator.SetBool("jano", juo);
-            animator.SetBool("nälkä", syö);
+            animator.SetBool("nälkä", syo);
 
             nextTime += interval;
         }
