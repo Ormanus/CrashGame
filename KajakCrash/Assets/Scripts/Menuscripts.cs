@@ -24,6 +24,7 @@ public class Menuscripts : MonoBehaviour
         animator3 = menu3gameobject.GetComponent<Animator>();
         animator4 = menu4gameobject.GetComponent<Animator>();
         menu1 = true;
+        //audio.Play();
     }
 
 
