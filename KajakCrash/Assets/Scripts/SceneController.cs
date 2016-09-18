@@ -14,7 +14,7 @@ public enum GameState
 public class SceneController : MonoBehaviour {
     Animator animator;
     public Text displayCount;
-
+    GameObject Clock;
 
     float timer;
     public static GameState state;
@@ -25,6 +25,7 @@ public class SceneController : MonoBehaviour {
         state = GameState.Game;
         displayCount = GameObject.Find("DisplayCount").GetComponentInChildren<Text>();
         displayCount.text = "Tässä näkyy aika";
+        Clock = GameObject.Find("Image");
 
     }
 
@@ -35,7 +36,7 @@ public class SceneController : MonoBehaviour {
         //Adds timer count to displayCount
         if (timer >= 0)
         {
-            animator = GetComponent<Animator>();
+            animator = Clock.GetComponent<Animator>();
             animator.SetFloat("timer", timer);
             displayCount.text =  timer.ToString("0");
         }
