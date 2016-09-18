@@ -6,6 +6,7 @@ public class Trigger : MonoBehaviour
 {
 
     public Text name_text;
+    public GameObject minigameObject;
     bool playerIsNear;
 
     void Start()
@@ -19,8 +20,9 @@ public class Trigger : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && playerIsNear)
         {
-            //Debug.Log("Spaaaace!");
-            gameObject.GetComponent<Computer>().state = ComputerState.Off;
+            Minigame minigame = Instantiate(minigameObject).GetComponent<Minigame>();
+            minigame.Hack(gameObject.GetComponent<Computer>());
+            //gameObject.GetComponent<Computer>().state = ComputerState.Off;
         }
     }
 
@@ -33,11 +35,6 @@ public class Trigger : MonoBehaviour
             playerIsNear = true;
 
         }
-
-       
-        
-
-        
     }
 
     void OnTriggerExit2D(Collider2D other)
