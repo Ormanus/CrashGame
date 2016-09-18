@@ -160,6 +160,7 @@ public class EnemyAI : MonoBehaviour {
             if(!hasTarget)
             {
                 Debug.Log("searching for targets..");
+                path = null;
                 WaypointTarget();
                 if (!hasTarget)
                     Debug.Log("target == null");
@@ -184,6 +185,8 @@ public class EnemyAI : MonoBehaviour {
                         Transform comp = GetNearestComputer();
                         comp.GetComponent<Computer>().state = ComputerState.Running;
                         fixTimer = 0.0f;
+                        path = null;
+                        hasTarget = false;
                         WaypointTarget();
                     }
                 }

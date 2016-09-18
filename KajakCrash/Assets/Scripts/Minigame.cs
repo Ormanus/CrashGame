@@ -56,7 +56,7 @@ void Update()
                     if (text[x] != password[x])
                     {
                         computer.state = ComputerState.Off;
-                        animator.SetInteger("tila", 2);
+                        //animator.SetInteger("tila", 2);
                         DestroyObject(gameObject);
                         return;
                     }
@@ -65,7 +65,7 @@ void Update()
                 if (text.Length == password.Length)
                 {
                     computer.state = ComputerState.Bluescreen;
-                    animator.SetInteger("tila", 1);
+                    //animator.SetInteger("tila", 1);
                     DestroyObject(gameObject);
                     return;
                 }
