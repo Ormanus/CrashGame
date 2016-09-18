@@ -10,7 +10,6 @@ public class Minigame : MonoBehaviour {
     string[] pool;
     Computer computer;
     Text display;
-    PlayAudio audio;
     
     void Start()
     {
@@ -32,8 +31,6 @@ public class Minigame : MonoBehaviour {
         text = "";
         password = pool[Random.Range(0, pool.Length)]; 
         display.text = password;
-
-        audio = GameObject.Find("EffectSource").GetComponent<PlayAudio>();
     }
     
 void Update()
@@ -59,7 +56,7 @@ void Update()
                     if (text[x] != password[x])
                     {
                         computer.state = ComputerState.Off;
-                        audio.PlaySound(1);
+                        animator.SetInteger("tila", 2);
                         DestroyObject(gameObject);
                         return;
                     }
@@ -68,7 +65,7 @@ void Update()
                 if (text.Length == password.Length)
                 {
                     computer.state = ComputerState.Bluescreen;
-                    audio.PlaySound(0);
+                    animator.SetInteger("tila", 1);
                     DestroyObject(gameObject);
                     return;
                 }
