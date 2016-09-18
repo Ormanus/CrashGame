@@ -12,7 +12,7 @@ public enum GameState
 
 
 public class SceneController : MonoBehaviour {
-
+    Animator animator;
     public Text displayCount;
 
 
@@ -35,7 +35,9 @@ public class SceneController : MonoBehaviour {
         //Adds timer count to displayCount
         if (timer >= 0)
         {
-            displayCount.text = "Time Left!: " + timer.ToString("0");
+            animator = GetComponent<Animator>();
+            animator.SetFloat("timer", timer);
+            displayCount.text =  timer.ToString("0");
         }
 
         if (timer < 0)
