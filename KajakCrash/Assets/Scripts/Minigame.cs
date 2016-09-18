@@ -18,44 +18,26 @@ Computer computer;
     
 void Start()
     {
-
         pool = new string[]
-
         {
-
             "asd",
-
             "dsa",
-
             ".exe",
-
             "lolollol"
-
         };
         
 password = "qwertyiuop";
-
         text = "";
- 
    }
-
     
 void Update()
-
     {
- 
        foreach (char c in Input.inputString)
-
         {
-
             if(text.Length == 0 && c == ' ')
-
             {
-
                 continue;
-
             }
-
             if (c == "\b"[0])
 
                 if (text.Length != 0)
@@ -91,5 +73,10 @@ void Update()
         password = pool[Random.Range(0, pool.Length)];
         text = "";
         Debug.Log(password);
+    }
+
+    public void stopHack()
+    {
+        DestroyObject(gameObject);
     }
 }

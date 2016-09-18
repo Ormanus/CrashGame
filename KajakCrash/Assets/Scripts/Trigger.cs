@@ -8,8 +8,6 @@ public class Trigger : MonoBehaviour
     public Text name_text;
     public GameObject minigameObject;
     bool playerIsNear;
-
-    public GameObject minigameObject;
     public Minigame minigame;
 
     void start()
@@ -44,7 +42,6 @@ public class Trigger : MonoBehaviour
     {
         name_text.text = "";
         playerIsNear = false;
-        minigame.hacking = false;
-        minigame.gameObject.SetActive(false);
+        minigame.stopHack();
     }
 }
