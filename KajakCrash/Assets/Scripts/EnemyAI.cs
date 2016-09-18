@@ -180,7 +180,7 @@ public class EnemyAI : MonoBehaviour {
                     //enemy at the last node (computer)
                     GetComponent<Rigidbody2D>().velocity = new Vector3(0, 0, 0);
                     fixTimer += Time.fixedDeltaTime;
-                    if (fixTimer > 2.0f)
+                    if (fixTimer > 4.0f)
                     {
                         Transform comp = GetNearestComputer();
                         comp.GetComponent<Computer>().state = ComputerState.Running;

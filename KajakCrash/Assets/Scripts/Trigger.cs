@@ -52,6 +52,7 @@ public class Trigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            other.GetComponent<Animator>().SetBool("hack", false);
             name_text.text = "";
             playerIsNear = false;
             if (minigame != null)

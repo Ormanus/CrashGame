@@ -17,16 +17,22 @@ public class Minigame : MonoBehaviour {
 
         display = GetComponentInChildren<Text>();
 
-        pool = new string[8];
-        pool[0] = "asd";
-        pool[1] = ".lololllo";
-        pool[2] = "qwetryiu";
-        pool[3] = ".exe";
+        pool = new string[14];
+        pool[0] = "enter";
+        pool[1] = "hax.exe";
+        pool[2] = "qwerty";
+        pool[3] = ".pexe";
         pool[4] = "CRASH";
-        pool[5] = "GaMeJaM";
-        pool[6] = "TrololoO";
-        pool[7] = "Your mom.";
-        
+        pool[5] = "gamejam";
+        pool[6] = "trololoo";
+        pool[7] = "your.mom";
+        pool[8] = "unix";
+        pool[9] = "magic";
+        pool[10] = "eat.poo";
+        pool[11] = "fear.me";
+        pool[12] = "1337";
+        pool[13] = "n00b";
+
         password = "qwertyiuop";
         text = "";
         password = pool[Random.Range(0, pool.Length)]; 
