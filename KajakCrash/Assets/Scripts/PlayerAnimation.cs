@@ -14,7 +14,7 @@ public class PlayerAnimation : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        running = Input.GetKey(KeyCode.UpArrow);
+        running = Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow);
 
         animator.SetBool("run", running);
     }

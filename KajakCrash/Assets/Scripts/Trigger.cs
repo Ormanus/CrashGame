@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class Trigger : MonoBehaviour
 {
-
+    Animator animator;
     public Text name_text;
     public GameObject minigameObject;
     bool playerIsNear;
@@ -34,6 +34,24 @@ public class Trigger : MonoBehaviour
             name_text.text = "";
             audio.PlaySound(2);
             //gameObject.GetComponent<Computer>().state = ComputerState.Off;
+        }
+        if (computer.state== ComputerState.Running)
+        {
+            animator = gameObject.GetComponentInChildren<Animator>();
+            animator.SetInteger("tila", 0);
+           // animator = gameObject.GetComponentInChildren
+            
+        }
+        if (computer.state == ComputerState.Off)
+        { 
+            animator = gameObject.GetComponentInChildren<Animator>();
+            animator.SetInteger("tila", 1);
+        }
+
+        if (computer.state == ComputerState.Bluescreen)
+        {
+            animator = gameObject.GetComponentInChildren<Animator>();
+            animator.SetInteger("tila", 2);
         }
     }
 
